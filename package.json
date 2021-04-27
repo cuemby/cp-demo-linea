@@ -1,0 +1,23 @@
+{
+  "name": "ccp-app-demo-for-deployment",
+  "version": "1.0.0",
+  "description": "Demo application for Deployment test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuemby/ccp-app-demo-for-deployment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuemby/ccp-app-demo-for-deployment/issues"
+  },
+  "homepage": "https://github.com/cuemby/ccp-app-demo-for-deployment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
