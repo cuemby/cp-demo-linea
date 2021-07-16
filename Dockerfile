@@ -15,7 +15,7 @@ RUN npm i
 COPY . .                
 
 # Open desired port
-EXPOSE 3000
+EXPOSE 80
 
 # Use js files to run the application
 ENTRYPOINT ["npm", "run", "start"]
