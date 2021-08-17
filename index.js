@@ -6,7 +6,9 @@ const port = 80
 app.get('/', (req, res) => {
   res.send({
       message: 'CCP demo app is working!',
-      version: '20210510.1'
+      version: '20210821.1',
+      branch: 'main',
+      env: process.env.env_demo || 'this variables was not loaded'
   })
 })
 
