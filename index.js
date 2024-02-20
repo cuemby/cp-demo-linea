@@ -20,6 +20,6 @@ app.listen(port, () => {
   console.log(`CCP demo app listening at http://0.0.0.0:${port}`)
   // log
   setInterval(function(){
-    console.log("app continue running ", new Date().toString())
+    console.log("app continue running. Current time: ", new Date().toString())
   }, 1000)
 })
